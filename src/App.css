@@ -74,9 +74,9 @@ input:checked + label {
   object-fit: cover;
 }
 
-@media(min-width: 640px) {
+@media(max-width: 640px) {
   .container-item-cardapio {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
